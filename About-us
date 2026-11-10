@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0908">
+
+<!-- Primary SEO Meta Tags -->
+<title>About Us – IJ7 Game Official Information &amp; Support</title>
+<meta name="title" content="About Us – IJ7 Game Official Information &amp; Support">
+<meta name="description" content="Learn about the team behind IJ7 Game on ij7game.com, our mission, fair-play policies, player security, privacy terms, and 24x7 support.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://ij7game.com/about-us.html">
+
+<!-- Favicons -->
+<link rel="icon" type="image/png" sizes="192x192" href="/logo.png">
+<link rel="apple-touch-icon" href="/logo.png">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_IN">
+<meta property="og:site_name" content="IJ7 Game">
+<meta property="og:title" content="About Us – IJ7 Game Official Information">
+<meta property="og:description" content="Get to know the team behind IJ7 Game, our player-first approach, fair gaming, and customer support.">
+<meta property="og:url" content="https://ij7game.com/about-us.html">
+<meta property="og:image" content="https://ij7game.com/logo.png">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About Us – IJ7 Game Official Information">
+<meta name="twitter:description" content="Get to know the team behind IJ7 Game, our player-first approach, and fair gaming.">
+<meta name="twitter:image" content="https://ij7game.com/logo.png">
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://ij7game.com/about-us.html#webpage",
+      "url": "https://ij7game.com/about-us.html",
+      "name": "About Us – IJ7 Game",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://ij7game.com/#website",
+        "url": "https://ij7game.com/",
+        "name": "IJ7 Game"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://ij7game.com/#organization",
+      "name": "IJ7 Game",
+      "url": "https://ij7game.com/",
+      "logo": "https://ij7game.com/logo.png",
+      "email": "support@ij7game.com"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ij7game.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Us",
+          "item": "https://ij7game.com/about-us.html"
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+:root{
+  --bg:#0b0908;
+  --panel:#171011;
+  --text:#f1e5c8;
+  --muted:#c8bda7;
+  --gold:#e5b94c;
+  --line:#44321c;
+  --b1:#f3c64e;
+  --b2:#ed8737;
+  --bt:#170d08;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  line-height:1.7;
+}
+header{
+  position:sticky;
+  top:0;
+  z-index:20;
+  background:#0b0908f0;
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+  padding:12px 18px;
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  color:var(--gold);
+  text-decoration:none;
+  font-weight:800;
+  font-size:20px;
+}
+.logo{
+  width:38px;
+  height:38px;
+  border-radius:8px;
+  object-fit:contain;
+}
+nav.top{
+  margin-left:auto;
+  display:flex;
+  gap:16px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
+nav.top a{
+  font-size:14px;
+  color:var(--muted);
+  text-decoration:none;
+  font-weight:700;
+  cursor:pointer;
+  transition:color .2s;
+}
+nav.top a:hover, nav.top a.on{
+  color:var(--gold);
+}
+main{
+  padding:32px 18px 80px;
+  max-width:820px;
+  margin:0 auto;
+}
+section{display:none}
+section.on{display:block}
+h1{
+  font-size:clamp(26px,4vw,34px);
+  line-height:1.25;
+  margin:0 0 16px;
+  color:var(--text);
+  font-weight:900;
+}
+h2{
+  color:var(--gold);
+  font-size:22px;
+  margin:28px 0 10px;
+  font-weight:800;
+}
+p{
+  margin:0 0 14px;
+  color:var(--muted);
+  font-size:16px;
+}
+.lead{
+  color:#ded3be;
+  font-size:18px;
+  line-height:1.6;
+}
+ul{
+  padding-left:22px;
+  margin:0 0 18px;
+}
+li{
+  margin-bottom:10px;
+  color:var(--muted);
+}
+li strong{color:var(--gold)}
+a{color:var(--gold);text-decoration:underline}
+a:hover{color:#fff}
+.cta-group{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  margin:24px 0 10px;
+}
+.cta{
+  display:inline-block;
+  border-radius:10px;
+  padding:12px 22px;
+  font-weight:800;
+  background:linear-gradient(135deg,var(--b1),var(--b2));
+  color:var(--bt);
+  text-decoration:none;
+  transition:transform .2s;
+}
+.cta:hover{transform:translateY(-2px)}
+.card{
+  background:var(--panel);
+  border:1px solid #38271d;
+  border-radius:12px;
+  padding:16px 18px;
+  margin-bottom:14px;
+}
+.card strong{
+  color:var(--gold);
+  display:block;
+  font-size:17px;
+  margin-bottom:6px;
+}
+.card p{
+  margin:0;
+  font-size:15px;
+}
+footer{
+  background:#080605;
+  border-top:1px solid var(--line);
+  padding:28px 18px 90px;
+}
+.row{
+  display:flex;
+  gap:24px;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  max-width:820px;
+  margin:0 auto;
+}
+footer p{
+  font-size:14px;
+  max-width:360px;
+  line-height:1.6;
+}
+footer nav a{
+  display:block;
+  font-size:14px;
+  margin-bottom:8px;
+  color:var(--text);
+  text-decoration:none;
+  cursor:pointer;
+}
+footer nav a:hover{
+  color:var(--gold);
+}
+.bar{
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  background:#140f10f5;
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+  border-top:1px solid var(--line);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px 18px calc(10px + env(safe-area-inset-bottom,0px));
+  z-index:30;
+}
+.bar small{
+  font-size:12px;
+  color:var(--muted);
+  line-height:1.4;
+  display:block;
+}
+.bar .btn{
+  border-radius:8px;
+  padding:10px 18px;
+  font-weight:800;
+  font-size:14px;
+  text-decoration:none;
+  background:linear-gradient(135deg,var(--b1),var(--b2));
+  color:var(--bt);
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a class="brand" href="/" aria-label="IJ7 Home">
+    <img class="logo" src="/logo.png" alt="IJ7 Logo" width="38" height="38">
+    <span>IJ7</span>
+  </a>
+  <nav class="top">
+    <a href="/">Home</a>
+    <a data-v="about">About</a>
+    <a data-v="faqs">FAQs</a>
+    <a data-v="privacy">Privacy</a>
+    <a data-v="disclaimer">Disclaimer</a>
+  </nav>
+</header>
+
+<main>
+  <!-- ABOUT SECTION -->
+  <section id="about" class="on">
+    <h1>About Us – The Team Behind IJ7 Game</h1>
+    <p class="lead">IJ7 Game is developed with a straightforward vision: delivering a secure, fast, and lightweight mobile gaming hub built specifically for Indian smartphone users.</p>
+    
+    <h2>Our Mission</h2>
+    <p>We want IJ7 to be the gaming application you can depend on. That means transparent in-app wallet management, prompt UPI and IMPS withdrawals, fair and certified game mechanics, and a lean build that never overloads your phone's memory or battery.</p>
+    
+    <h2>What We Believe</h2>
+    <ul>
+      <li><strong>Transparency First:</strong> Clear separation between your real-money cash balance and bonus balance. No hidden clauses or misleading rules.</li>
+      <li><strong>Lightweight Engineering:</strong> A ~39.21 MB APK that runs smoothly beats a bulky 500 MB game every single time.</li>
+      <li><strong>Engineered for Indian Networks:</strong> Every screen is tuned to load fast—even on fluctuating 4G or 3G connections.</li>
+      <li><strong>Player Well-Being:</strong> Gaming should remain entertaining. We encourage self-control, limits, and responsible play.</li>
+    </ul>
+    
+    <h2>How We Work</h2>
+    <p>We roll out verified application updates on a regular basis. Every new build includes stability improvements, modern security certificates, and exciting new titles across slots, fishing arcade, Teen Patti, and live tables.</p>
+    
+    <h2>Play Responsibly</h2>
+    <p>Real-cash gaming is intended strictly for entertainment for adults aged 18 and above. We support responsible gaming with voluntary deposit limits and self-exclusion tools inside the profile settings. Always play within your budget.</p>
+    
+    <h2>Get in Touch</h2>
+    <p>For instant account or deposit assistance, use the 24×7 customer service chat button inside the IJ7 app. For partnership, legal, or editorial inquiries, contact us directly at <a href="mailto:support@ij7game.com">support@ij7game.com</a>.</p>
+    
+    <div class="cta-group">
+      <a class="cta" href="https://ij7game.com?inviteCode=RSF2W5N&amp;from=app" target="_blank" rel="sponsored noopener noreferrer">Download IJ7 App</a>
+      <a class="cta" href="https://share.in7v5.com/share/agent/AA6JXC91" target="_blank" rel="sponsored noopener noreferrer" style="background:linear-gradient(135deg,#2ecc71,#27ae60);color:#fff">Download in7game</a>
+    </div>
+  </section>
+
+  <!-- FAQS SECTION -->
+  <section id="faqs">
+    <h1>Frequently Asked Questions</h1>
+    <div class="card">
+      <strong>Is IJ7 Game free to download?</strong>
+      <p>Yes. Downloading and setting up the IJ7 APK is 100% free. You only fund your wallet if you decide to participate in real-cash matches.</p>
+    </div>
+    <div class="card">
+      <strong>How do I download the official APK?</strong>
+      <p>Click on the download links available on ij7game.com to receive the authentic APK without risks of malicious third-party tampering.</p>
+    </div>
+    <div class="card">
+      <strong>Does IJ7 run on budget Android phones?</strong>
+      <p>Yes. The app is compact (~39.21 MB) and works smoothly on Android 5.0+ devices with 2 GB RAM or more.</p>
+    </div>
+    <div class="card">
+      <strong>How fast are withdrawals?</strong>
+      <p>Verified accounts receive UPI or IMPS withdrawals in typically 5 to 30 minutes during standard processing windows.</p>
+    </div>
+    <div class="card">
+      <strong>How do I get help with a transaction?</strong>
+      <p>Reach out through the 24×7 customer support section inside the app or email support@ij7game.com with your registered mobile number.</p>
+    </div>
+  </section>
+
+  <!-- PRIVACY POLICY SECTION -->
+  <section id="privacy">
+    <h1>Privacy Policy</h1>
+    <p class="lead">This policy outlines how ij7game.com and the IJ7 application protect and handle your personal data.</p>
+    
+    <h2>Information We Collect</h2>
+    <p>We process standard device details (OS version, network connection status, crash logs) to optimize gameplay performance. Account details such as your phone number are used for OTP authentication and security.</p>
+    
+    <h2>Data Protection &amp; Security</h2>
+    <p>All sensitive communications and transactions are guarded by industry-grade TLS encryption. We never sell or lease user information to third-party marketing companies.</p>
+    
+    <h2>Cookies &amp; Logs</h2>
+    <p>Our website may use standard session cookies to improve navigation and measure site performance. You can disable cookies anytime in your browser settings.</p>
+    
+    <h2>Contact Privacy Team</h2>
+    <p>If you have questions regarding data privacy, reach out to us at <a href="mailto:support@ij7game.com">support@ij7game.com</a>.</p>
+  </section>
+
+  <!-- DISCLAIMER SECTION -->
+  <section id="disclaimer">
+    <h1>Disclaimer &amp; Legal Notice</h1>
+    <p class="lead">Please read this disclaimer carefully before downloading or using IJ7 Game.</p>
+    <p>ij7game.com is an independent informational guide and distribution portal. Games are offered as-is by their respective operators.</p>
+    <p>Real-cash gaming involves monetary risk and can be addictive. Please play responsibly and within your financial limits. Participation is strictly restricted to individuals aged <strong>18 years and above</strong>.</p>
+    <p>Online gaming regulations vary across different Indian states. Players must ensure compliance with their local regional laws before engaging in real-money games.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="row">
+    <div>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+        <img src="/logo.png" alt="IJ7 Logo" width="28" height="28" style="border-radius:6px">
+        <b style="color:var(--gold);font-size:18px">IJ7</b>
+      </div>
+      <p>ij7game.com is an informational portal and APK download guide for IJ7 Game and in7game on Android devices.</p>
+    </div>
+    <nav>
+      <b style="color:var(--gold);font-size:14px">QUICK LINKS</b><br><br>
+      <a href="/">Home</a>
+      <a data-v="about">About Us</a>
+      <a data-v="faqs">FAQs</a>
+      <a data-v="privacy">Privacy Policy</a>
+      <a data-v="disclaimer">Disclaimer</a>
+    </nav>
+  </div>
+</footer>
+
+<div class="bar">
+  <small>18+ ONLY · PLAY RESPONSIBLY<br>Fast UPI Withdrawals · 24×7 Support</small>
+  <a class="btn" href="https://ij7game.com?inviteCode=RSF2W5N&amp;from=app" target="_blank" rel="sponsored noopener noreferrer">Download App</a>
+</div>
+
+<script>
+var V = ["about", "faqs", "privacy", "disclaimer"];
+function show(v){
+  if(V.indexOf(v) < 0) v = "about";
+  document.querySelectorAll("section").forEach(function(s){
+    s.classList.toggle("on", s.id === v);
+  });
+  document.querySelectorAll("[data-v]").forEach(function(a){
+    a.classList.toggle("on", a.getAttribute("data-v") === v);
+  });
+  window.scrollTo(0,0);
+}
+document.addEventListener("click", function(e){
+  var a = e.target.closest("[data-v]");
+  if(a){
+    e.preventDefault();
+    var target = a.getAttribute("data-v");
+    location.hash = target;
+    show(target);
+  }
+});
+window.addEventListener("hashchange", function(){
+  var hash = (location.hash || "").replace("#","");
+  show(hash || "about");
+});
+var initial = (location.hash || "").replace("#","");
+show(initial || "about");
+</script>
+
+</body>
+</html>
